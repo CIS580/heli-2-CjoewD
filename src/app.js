@@ -89,12 +89,12 @@ window.onkeydown = function(event) {
       event.preventDefault();
       break;
     case "ArrowLeft":
-    case "d":
+    case "a":
       input.left = true;
       event.preventDefault();
       break;
     case "ArrowRight":
-    case "a":
+    case "d":
       input.right = true;
       event.preventDefault();
       break;
